@@ -1,0 +1,37 @@
+.foodList{
+    width: 85vw;
+    margin: 0 auto;
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-gap: 1.3rem;
+}
+.food{
+    background-color: #f4f4f4;
+    border-radius: 0.8rem;
+    margin: 1.2rem;
+}
+.food-info{
+    padding: 1rem;
+}
+.food-info h1{
+    color: brown;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 0 5px 5px rgb(0,0,0,0.5);
+}
+.food-info p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+}
+.food img{
+    width: 100%;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+    height: 300px;
+}
+
+@media all and (max-width: 500px){
+    foodList{
+        margin: 10px 10px;
+    }
+}

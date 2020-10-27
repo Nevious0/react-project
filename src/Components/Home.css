@@ -1,0 +1,120 @@
+.home{
+    height: 100vh;
+}
+.home-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #333;
+    text-shadow: 0 5px 10px rgb(0,0,0,0.5);
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    flex-wrap: wrap;
+}
+.home-info span{
+    color: #fff;
+}
+.home-info h1{
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.home-info h4{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.home-info h6{
+    font-size: 30px;
+}
+
+.home-second-layout{
+ width: 85vw;
+ margin: 40px auto;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ flex-wrap: wrap;
+}
+.icon-1,
+.icon-2,
+.icon-3,
+.icon-4,
+.icon-5{
+    font-size: 40px;
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 50%;
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+   background-position: center;
+   background-size: cover;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 5px 10px rgb(0,0,0,0.5);
+    margin: 20px 30px;
+}
+.languages{
+    text-align: center;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+.home-third-layout{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+}
+.first-description{
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.desc-1{
+   justify-content: center;
+   align-items: center;
+   display: block;
+   margin: 30px 30px;
+  background-color: indigo;
+  padding: 15px;
+  color: #fff;
+    width: 450px;
+    border-radius: 10px;
+}
+.desc-2{
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin: 30px 30px;
+   background-color: indigo;
+   padding: 15px;
+   color: #fff;
+     width: 450px;
+     border-radius: 10px;
+}
+.footer{
+    padding: 20px 20px;
+background-color: grey;
+text-align: center;
+color: #fff;
+}
+
+@media all and (max-width: 500px){
+    .home-info{
+        padding: 0 10px;
+    }
+    .home-second-layout{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .desc-1,.desc-2{
+margin: 15px 10px;
+    }
+}

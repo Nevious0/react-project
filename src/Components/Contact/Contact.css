@@ -1,0 +1,100 @@
+.myContact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px auto;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+.personal-1{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+width: 450px;
+height: 80vh;
+border-radius: 20px;
+background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+color: #333;
+margin-bottom: 30px;
+
+}
+
+.personal-2{
+height: 80vh;
+margin-bottom: 30px;
+}
+.second-image{
+    height: 80vh;
+    width: 450px;
+    border-radius: 20px;
+}
+
+.name, .web{
+    background:#f4f4f4;
+    padding: 10px;
+    width: 450px;
+    text-align: center;
+}
+.fa-facebook-square,.fa-instagram-square,.fa-twitter-square{
+    font-size: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    box-shadow: 0 3px 5px rgb(0,0,0,0.5);
+}
+.fa-facebook-square{
+    color: #fff;
+    padding: 7px 7px;
+    background: blue;
+    border-radius: 3px;
+}
+.fa-instagram-square{
+    color: #fff;
+    padding: 7px 7px;
+    background: crimson;
+    border-radius: 3px;
+}
+.fa-twitter-square{
+    color: #fff;
+    background: #0899c5;
+    padding: 7px 7px;
+    border-radius: 3px;
+}
+.email{
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+}
+.btn{
+    background-color: brown;
+    padding: 16px 30px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.btn:hover{
+    transition: all 0.3s ease-in-out;
+    opacity: .7;
+}
+footer{
+    background-color: grey;
+    color: #fff;
+    text-align: center;
+    padding: 20px 20px;
+}
+@media all and (max-width: 500px){
+    .myContact{
+        margin: 20px 15px;
+        display: block;
+    }
+}
